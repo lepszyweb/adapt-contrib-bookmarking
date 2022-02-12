@@ -10,7 +10,7 @@
       "properties": {
         "_bookmarking": {
           "type": "object",
-          "title": "Bookmarking",
+          "title": "Zakładki",
           "default": {},
           "required": [
             "_level"
@@ -18,14 +18,14 @@
           "properties": {
             "_isEnabled": {
               "type": "boolean",
-              "title": "Enable Bookmarking",
-              "description": "Controls whether Bookmarking is enabled or disabled for this page of the course",
+              "title": "Włącz zakładki",
+              "description": "Określa czy zakładki są włączone czy wyłączone dla tej strony kursu.",
               "default": true
             },
             "_level": {
               "type": "string",
-              "title": "Level",
-              "description": "Whether you want to inherit the 'Level' setting from Project settings or override it for this page of the course",
+              "title": "Poziom",
+              "description": "Czy chcesz odziedziczyć ustawienie 'Poziom' z ustawień projektu, czy nadpisać je dla tej strony kursu",
               "default": "inherit",
               "enum": [
                 "inherit",
